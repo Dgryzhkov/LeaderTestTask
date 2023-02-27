@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db.changelog/ver1/db.create-table-devices.yaml
+  - include:
+      file: db.changelog/ver1/db.create-table-events.yaml
+  - include:
+      file: db.changelog/ver1/db.create-table-active-devices.yaml
